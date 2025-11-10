@@ -1,0 +1,6 @@
+header {
+    width: 100vw;
+    height: 8vh;
+    background: linear-gradient(to right, rgb(102, 102, 102), rgb(24, 24, 24));
+    box-shadow: 0px 4px 5px 1px rgb(119, 119, 119);
+}   

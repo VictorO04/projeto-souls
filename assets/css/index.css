@@ -1,6 +1,63 @@
+body {
+    background-color: #100e11;
+    color: rgb(252, 241, 217);
+}
+
 header {
     width: 100vw;
-    height: 8vh;
-    background: linear-gradient(to right, rgb(102, 102, 102), rgb(24, 24, 24));
-    box-shadow: 0px 4px 5px 1px rgb(119, 119, 119);
-}   
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(252, 241, 217);
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+#home {
+    width: 4rem;
+}
+
+header a:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.jogos-header {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.jogos-header a {
+    width: 5.8rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.inicio h1 {
+    font-size: 3.5rem;
+    margin-bottom: 2.8rem;
+}
+
+.inicio p {
+    font-size: 1.5rem;
+}
+
+.inicio img {
+    width: 50vw;
+}
